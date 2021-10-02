@@ -31,4 +31,4 @@ RUN mkdir -p /root/.jupyter/ && touch /root/.jupyter/jupyter_lab_config.py \
 
 EXPOSE 8000
 
-CMD [ "jupyter-lab", "--allow-root"]
+CMD [ "jupyter-lab", "--allow-root", "--collaborative"]
